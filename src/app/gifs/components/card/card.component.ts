@@ -3,10 +3,10 @@ import { Gif } from '../../interfaces/gifs.interfaces';
 
 @Component({
   selector: 'gifs-card',
-  templateUrl: './gifs-card.component.html',
-  styleUrl: './gifs-card.component.css'
+  templateUrl: './card.component.html',
+  styleUrl: './card.component.css'
 })
-export class GifsCardComponent implements OnInit {
+export class CardComponent implements OnInit {
 
   @Input()
   gif!: Gif;
